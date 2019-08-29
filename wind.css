@@ -1,0 +1,124 @@
+.pinwheel {
+	width:140px;
+	height:140px;
+	-webkit-transform-origin:69px 73px;            /* 指定风车扇叶变形的中心原点 */	
+	-webkit-animation-name:keyname;                /* 绑定关键帧动画 */	
+	-webkit-animation-duration:2s;                 /* 动画播放周期2s */	
+	-webkit-animation-iteration-count:infinite;    /* 动画无限制循环 */	
+	-webkit-animation-timing-function:linear;	   /* 线性的变化速度 */	
+}
+.pinwheel span{
+	width:100px;
+	height:50px;
+	display:block;
+	opacity:0.5;
+	position:relative;
+	border-radius:20px;
+}
+.pinwheel .one{
+	background-color:red;
+	-webkit-transform:skew(40deg);
+	top:48px;
+	left:50px;
+}
+.pinwheel .tow{
+	background-color:green;
+	-webkit-transform: rotate(120deg) skew(40deg);
+	top:30px;
+	left:5px;
+}
+.pinwheel .three{
+	background-color:blue;
+	-webkit-transform: rotate(240deg) skew(40deg);
+	top:-80px;
+	left:2px;
+}
+.pinwheel .point{
+	position:relative;
+	top:-90px;
+	left:45px;
+}
+.tree{
+	position:relative;
+	top:-78px;
+	left:65px;
+	border-radius:10px 10px 10px 10px;
+	height:220px;
+	width:10px;
+	background-color:#999;
+	background:-webkit-gradient(linear, left top, right top, from(#ffcc00), to(#cc0033));
+	z-index:-1;
+}
+.tree img{
+	width:10px;
+}
+ @-webkit-keyframes keyname {    /*  关键帧动画keyname */
+ from {
+ 	-webkit-transform:rotate(0);
+}
+to {
+	-webkit-transform:rotate(360deg);     /* 旋转风车360deg */
+}
+}
+.pinwheel1{
+	width:140px;
+	height:140px;	
+	-webkit-transform-origin:69px 73px;            /* 指定风车扇叶变形的中心原点 */	
+	-webkit-animation-name:keyname;                /* 绑定关键帧动画 */	
+	-webkit-animation-duration:1.2s;                 /* 动画播放周期2s */	
+	-webkit-animation-iteration-count:infinite;    /* 动画无限制循环 */	
+	-webkit-animation-timing-function:linear;
+}
+.pinwheel1 span{
+	width:100px;
+	height:50px;
+	display:block;
+	opacity:0.5;
+	position:relative;
+	border-radius:20px;
+}
+.pinwheel1 .one1{
+	background-color:red;
+	-webkit-transform:skew(40deg);
+	top:48px;
+	left:50px;
+}
+.pinwheel1 .tow1{
+	background-color:green;
+	-webkit-transform: rotate(120deg) skew(40deg);
+	top:30px;
+	left:5px;
+}
+.pinwheel1 .three1{
+	background-color:blue;
+	-webkit-transform: rotate(240deg) skew(40deg);
+	top:-80px;
+	left:2px;
+}
+.pinwheel1 .point{
+	position:relative;
+	top:-90px;
+	left:45px;
+}
+.tree1{
+	position:relative;
+	top:-78px;
+	left:65px;
+	border-radius:10px 10px 10px 10px;
+	height:220px;
+	width:10px;
+	background-color:#999;
+	background:-webkit-gradient(linear, left top, right top, from(#ffcc00), to(#cc0033));
+	z-index:-1;
+}
+.tree1 img{
+	width:10px;
+}
+ @-webkit-keyframes keyname {    /*  关键帧动画keyname */
+ from {
+ 	-webkit-transform:rotate(0);
+}
+to {
+	-webkit-transform:rotate(360deg);     /* 旋转风车360deg */
+}
+}
